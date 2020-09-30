@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="168dp"
+            android:contentDescription="@string/open_roaming_logo"
+            android:src="@drawable/open_roaming" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/or"
+            android:textColor="#1D3243"
+            android:textSize="22.5sp" />
+
+    <TextView
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/or_desc"
+            android:textColor="#39393B"
+            android:textSize="14sp" />
+
+    <Button
+            android:id="@+id/buttonOAuthAuthentication"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/custom_button"
+            android:shadowRadius="5"
+            android:text="@string/server_auth_code_based"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+    <ImageButton
+            android:id="@+id/buttonGoogleSignIn"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/continue_with_google"
+            android:src="@drawable/continuewithgoogle" />
+
+    <ImageButton
+            android:id="@+id/buttonAppleSignIn"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/continue_with_apple"
+            android:src="@drawable/continuewithapple" />
+
+    <Button
+            android:id="@+id/buttonLoyaltyProgram"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
+            android:shadowRadius="5"
+            android:text="@string/user_id_based"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="127dp"
+            android:layout_marginBottom="50dp"
+            android:contentDescription="@string/cisco_logo"
+            android:paddingBottom="10dp"
+            android:src="@drawable/cisco_logo" />
+
+</LinearLayout>

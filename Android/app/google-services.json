@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727483389382",
+    "firebase_url": "https://openroaming-874ae.firebaseio.com",
+    "project_id": "openroaming-874ae",
+    "storage_bucket": "openroaming-874ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727483389382:android:04b3cae6ab6c5776004ec7",
+        "android_client_info": {
+          "package_name": "com.cisco.or"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727483389382-l63499lolseshcq43nha29588upas6lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvyiqgXX9RcPBESisPo2DnEX7b4brI8JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727483389382-l63499lolseshcq43nha29588upas6lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

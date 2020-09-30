@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">OR</string>
+    <string name="or">OpenRoaming</string>
+    <string name="or_desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies eu dolor.</string>
+    <string name="or_desc">To enjoy seamless and secure WiFi, please choose an account for activation</string>
+    <string name="or_desc_en">We care about your safety &amp; privacy
+        To ensure your safety and privacy while connected, we’ll need to install a secure credential.
+    </string>
+    <string name="or_desc_msg1"> You can add more identites later from the Configuration > Identities section.</string>
+    <string name="or_version">App Version 1.1</string>
+    <string name="or_logout_msg">Logging out will delete your profile and disassociate your account from open roaming. You will need to sign In again to access open roaming.</string>
+    <string name="accept">I Accept OpenRoaming TOS &amp; Privacy Policy</string>
+    <string name="share">Share my email with OpenRoaming partners</string>
+    <string name="checkmsg">Unchecking this may limit your ability to connect to OpenRoaming networks, as some networks may require an email address to connect you</string>
+    <string name="agreements">Agreements</string>
+    <string name="confirm">Continue</string>
+    <string name="accept_tos_and_privacy">Accept OpenRoaming TOS &amp; Privacy Policy</string>
+    <string name="congratulations">Congratulations! you have successfully signed.</string>
+    <string name="i_understand">I Understand</string>
+    <string name="usagescreen">Nothing Here Yet</string>
+    <string name="usagescreen1">The networks you connect to through OpenRoaming will show up here once you join them.</string>
+    <string name="usagescreen2">Get connected and you will see your usage here.</string>
+    <!-- Strings with SDK -->
+    <string name="delete">Delete</string>
+    <string name="logout">Logout</string>
+    <string name="proceed">Proceed</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="delete_for_all_devices">Delete for All Devices</string>
+    <string name="dont_share_email">Don\'t Share Email</string>
+    <string name="share_email_updated">Share email updated.</string>
+    <string name="push_notification_enable">Push Notification enabled.</string>
+    <string name="push_notification_disable">Push Notification disabled.</string>
+    <string name="not_available">Not Available</string>
+    <string name="confirm_delete_account">Are you sure you want to delete your account? This will remove your account and all associated data and history.</string>
+    <string name="confirm_delete_profile">Are you sure you want to delete your profile? This will dissociate your account. </string>
+    <string name="confirm_delete_account_for_all_devices">You have more than one device using OpenRoaming, deleting your account will remove OpenRoaming for all your devices</string>
+    <string name="confirm_not_sharing_email">Not sharing email may limit your ability to connect networks that require an email address to connect you.</string>
+    <string name="confirm_logout">Logout will turn off OpenRoaming on this device. You will have to log in again to activate. Are you sure you want to log out?</string>
+    <string name="auth_token_required">Authentication token is required</string>
+    <string name="open_roaming_logo">Open Roaming logo</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="user_id_based">User ID Based</string>
+    <string name="authentication_token">Authentication token</string>
+    <string name="server_auth_code_based">Server Auth Code Based</string>
+    <string name="cisco_logo">Cisco logo</string>
+    <string name="account_details">Account Details</string>
+    <string name="update_account">Update Account</string>
+    <string name="google_logo">Google logo</string>
+    <string name="how_to_get_google_token">How to get Google Token</string>
+    <string name="oauth_instructions_google_title">Obtain OAuth 2.0 credentials from the Google API Console</string>
+    <string name="oauth_instructions_google">Visit the Google API Console to obtain OAuth 2.0 credentials such as a client ID and client secret.</string>
+    <string name="click_here_google"><a href="https://developers.google.com/identity/protocols/oauth2">Click here for more information.</a></string>
+    <string name="apple_logo">Apple logo</string>
+    <string name="how_to_get_apple">How to get Apple Token</string>
+    <string name="oauth_instructions_apple_title">Generating Tokens for API Requests</string>
+    <string name="click_here_apple"><a href="https://developer.apple.com/documentation/appstoreconnectapi/generating_tokens_for_api_requests">Click here for more information.</a></string>
+    <string name="oauth_instructions_apple">Create JSON Web Tokens signed with your private key to authorize API requests.</string>
+    <string name="oauth_instructions_apple_cont">JSON Web Token (JWT) is an open standard (RFC 7519) that defines a way to securely transmit information. The App Store Connect API requires JWTs to authorize each API request. You create the token, signing it with the private key you downloaded from App Store Connect.</string>
+    <string name="token">Token</string>
+    <string name="authenticate">Authenticate</string>
+    <string-array name="oauth_authentication_items">
+        <item>Google</item>
+        <item>Apple</item>
+    </string-array>
+    <string-array name="loyalty_program_types">
+        <item>E-mail</item>
+        <item>Phone</item>
+        <item>Opaque Id</item>
+    </string-array>
+    <string name="email_required">E-mail is required.</string>
+    <string name="phone_required">Phone is required.</string>
+    <string name="opaque_id_required">Opaque Id is required.</string>
+    <string name="value">Value</string>
+    <string name="last_push_notification">Last Push Notification</string>
+    <string name="account">Account</string>
+    <string name="update_user">Update User</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone">Phone</string>
+    <string name="age">Age</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="back_to_account">Back to Account</string>
+    <string name="no_notifications_message">There are no notifications to show on this page</string>
+    <string name="no_notifications_title">No notifications to show</string>
+    <string name="invalid_email">Please insert a valid e-mail.</string>
+    <string name="invalid_phone">Please insert a valid phone.</string>
+</resources>

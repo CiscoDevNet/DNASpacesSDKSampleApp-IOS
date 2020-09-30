@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:background="@drawable/utility_layout_bg"
+              android:layout_margin="15dp" android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="30dp" android:orientation="horizontal"
+                    android:layout_margin="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\@Everywhere"
+                  android:textSize="16sp" android:textStyle="bold"
+                  android:layout_alignParentLeft="true" android:id="@+id/ssid" android:layout_centerVertical="true"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23rd July 2019"
+                  android:id="@+id/date" android:textSize="12sp" android:layout_alignParentRight="true" android:layout_marginRight="20dp" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="1dp"
+                  android:background="#E8E8E8"></LinearLayout>
+
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content"  android:stretchColumns="0,1" android:layout_gravity="center_vertical" android:padding="10dp">
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Device used" android:textSize="15sp" android:textColor="#888888"
+                      android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Duration"
+                      android:textSize="15sp" android:textColor="#888888" android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="One Plus 6" android:id="@+id/deviceused" android:textSize="12sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="45 min" android:id="@+id/duration" android:textSize="12sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <!--<TableLayout android:layout_width="match_parent" android:layout_height="wrap_content"  android:stretchColumns="0,1,2" android:layout_gravity="center_vertical" android:padding="10dp">
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23rd July 2019" android:id="@+id/date" android:textSize="12sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Duration" android:id="@+id/duration" android:textSize="12sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Profile Used" android:textSize="12sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\@Everywhere" android:textSize="16sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1hr 15 min"  android:textSize="12sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Google" android:textSize="12sp"/>
+        </TableRow>
+
+    </TableLayout>-->
+
+
+</LinearLayout>

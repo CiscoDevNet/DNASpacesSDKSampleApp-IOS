@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/privacy"
+            android:enabled="true"
+            android:title="Account"
+            android:icon="@drawable/usage_selector"
+            app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/usage"
+            android:enabled="true"
+            android:title="Usage"
+            android:icon="@drawable/usage_selector"
+            app:showAsAction="ifRoom" />
+</menu>

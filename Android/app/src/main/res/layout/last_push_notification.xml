@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/commonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="3dp"
+            android:background="#CCCCCC" ></LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/last_push_notification"
+            android:textColor="#58595B"
+            android:textSize="18sp" />
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#F5F5F5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC"></LinearLayout>
+
+
+        <LinearLayout
+                android:id="@+id/identityLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"></LinearLayout>
+
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" android:fillViewport="true" android:paddingBottom="50dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/pushLayout"></LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+            <Button
+                    android:id="@+id/backToAccount"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:text="@string/back_to_account"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/button_text_color" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

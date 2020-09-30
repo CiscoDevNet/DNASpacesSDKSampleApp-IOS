@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp" android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent" android:background="#FFFFFF">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/splash_screen"/>
+        <!--
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/open_roaming" android:layout_gravity="center"
+                   android:layout_marginTop="168dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/or" android:textColor="#1D3243" android:textSize="22.5sp"
+                  android:fontFamily="sans-serif" android:layout_marginTop="10dp"/>
+        <TextView android:layout_width="258dp" android:layout_height="wrap_content"
+                  android:text="@string/or_desc" android:layout_gravity="center"
+                  android:textColor="#39393B" android:textSize="14sp" android:gravity="center_horizontal" android:layout_marginTop="10dp"/>
+        <Button
+                android:text="Sign Up" android:layout_marginTop="60dp"
+                android:layout_width="238dp" android:layout_gravity="center"
+                android:layout_height="40dp" android:id="@+id/sign-up"
+                android:background="@drawable/button_background" android:textAllCaps="false" android:clickable="true" android:textColor="@drawable/button_text_color"/>
+        <Button
+                android:text="Sign In" android:layout_marginTop="10dp"
+                android:layout_width="238dp"
+                android:layout_height="40dp" android:id="@+id/sign-in"
+                android:background="@drawable/button_background" android:textAllCaps="false" android:textColor="@drawable/button_text_color"/>
+
+        <ImageView android:layout_width="wrap_content"
+                                                      android:layout_height="wrap_content"
+                                                      android:src="@drawable/cisco_logo" android:layout_gravity="center"
+                                                      android:layout_marginTop="127dp"/>
+
+                                                      -->
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"  android:orientation="vertical" android:background="@drawable/utility_layout_bg"   xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"   android:orientation="horizontal">
+        <!--<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="|||" android:textSize="12sp" android:layout_margin="30dp"/>
+        <LinearLayout android:layout_width="1dp" android:layout_height="match_parent" android:background="#CCCCCC" ></LinearLayout>-->
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/apple_logo" android:layout_gravity="center" android:layout_margin="20dp"/>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apple Account" android:textSize="16sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/emailText" android:text="binishbala@gmail.com" android:textSize="12sp" />-->
+        </LinearLayout>
+
+        <!--<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/delete" android:layout_gravity="center" android:layout_margin="20dp"/>-->
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"  android:layout_height="1dp" android:background="#E8E8E8"></LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_margin="20dp"    >
+
+        <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:paddingHorizontal="10dp"
+                android:text="Accept Privacy Settings"
+                android:textSize="16sp"
+                android:theme="@style/SwitchTheme" />
+
+        <Switch
+                android:id="@+id/pushSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:paddingHorizontal="10dp"
+                android:text="Push Notification"
+                android:textSize="16sp"
+                android:theme="@style/SwitchTheme" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="84dp"  android:background="@drawable/utility_layout_bg" android:layout_margin="15dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"  android:layout_gravity="center_vertical" android:padding="10dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="|||" android:textSize="12sp" android:layout_margin="30dp"/>
+        <LinearLayout android:layout_width="1dp" android:layout_height="match_parent" android:background="#CCCCCC" ></LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/apple_logo" android:layout_gravity="center" android:layout_margin="20dp"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apple Account" android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>-->
+

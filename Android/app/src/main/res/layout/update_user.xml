@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/commonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" android:background="@android:color/white" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="3dp"
+            android:background="#CCCCCC" ></LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/update_user"
+            android:textColor="#58595B"
+            android:textSize="18sp" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#F5F5F5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC"></LinearLayout>
+
+
+        <LinearLayout
+                android:id="@+id/identityLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+            <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="@string/e_mail"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:autofillHints="" />
+
+            <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="@string/phone"
+                    android:inputType="phone" />
+
+            <EditText
+                    android:id="@+id/editTextAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="@string/age"
+                    android:inputType="number" />
+
+            <EditText
+                    android:id="@+id/editTextZipCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="@string/zip_code"
+                    android:inputType="textPersonName" />
+
+            <Button
+                    android:id="@+id/updateButton"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:clickable="true"
+                    android:text="@string/update_user"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/button_text_color" />
+
+            <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:clickable="true"
+                    android:text="@android:string/cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/button_text_color" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
