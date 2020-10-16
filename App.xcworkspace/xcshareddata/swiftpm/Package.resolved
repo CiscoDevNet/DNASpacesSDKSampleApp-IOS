@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "OpenRoaming",
+        "repositoryURL": "https://github.com/CiscoDevNet/DNASpacesSDK-IOS.git",
+        "state": {
+          "branch": "master",
+          "revision": "03c5e2590b1d01ccf782cb9ce367d133627201dc",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
