@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>727483389382-br2qtutkv1jvq1lg4h2ljq0vag6tmhlc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.727483389382-br2qtutkv1jvq1lg4h2ljq0vag6tmhlc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLESvvdJv3SsCg0HE69CHI5diPwhDcnNs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>727483389382</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cisco.OpenRoaming.app29.vasquez</string>
+	<key>PROJECT_ID</key>
+	<string>openroaming-874ae</string>
+	<key>STORAGE_BUCKET</key>
+	<string>openroaming-874ae.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:727483389382:ios:b6ccead5fa5a061e004ec7</string>
+	<key>DATABASE_URL</key>
+	<string>https://openroaming-874ae.firebaseio.com</string>
+</dict>
+</plist>

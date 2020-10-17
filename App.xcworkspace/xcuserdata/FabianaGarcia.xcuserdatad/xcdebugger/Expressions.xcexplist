@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Service.call(requestData:serviceHandler:):Service.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myResponse.statusCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OpenRoaming.deleteUser(deleteUserHandler:):OpenRoaming.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Service.call(requestData:serviceHandler:):Service.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myResponse.statusCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RegisterService.onStart(headerParams:serviceHandler:):RegisterService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OpenRoaming.isSdkRegistered():OpenRoaming.swift">
+      </ContextState>
+      <ContextState
+         contextName = "JWTDecoder.decode():JWTDecoder.swift">
+      </ContextState>
+      <ContextState
+         contextName = "OpenRoaming.refreshToken(handler:):OpenRoaming.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "!token.expired">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
