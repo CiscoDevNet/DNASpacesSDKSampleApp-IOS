@@ -1,4 +1,6 @@
-# Cisco DNA Spaces SDK for IOS
+# Sample App - Cisco DNA Spaces SDK for IOS
+
+
 
 ## Adding the SDK package to your project
 
