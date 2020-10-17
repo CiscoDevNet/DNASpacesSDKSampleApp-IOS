@@ -1,19 +1,19 @@
 ## Adding the SDK package to your project
 
 1. On Xcode, go to File > Swift Packages > Add Package Dependency
-1. On Choose Project window, select which project you want to install OpenRoaming SDK package and click Next
-1. On Choose Package Repository window, insert the SSH of the repository where OpenRoaming SDK is located and click Next. Example:
-    1. `git@bitbucket.org:fit-tecnologia/openroaming-sdk-ios.git`
+2. On Choose Project window, select which project you want to install OpenRoaming SDK package and click Next
+3. On Choose Package Repository window, insert the HTTP of the repository where OpenRoaming SDK is located and click Next. Example:
+    1. `https://github.com/CiscoDevNet/DNASpacesSDK-IOS.git`
 
-> It might take a while for Xcode to verify the repository.
+    It might take a while for Xcode to verify the repository.
 
-1. After Xcode verified the repository, at the Choose Package Options screen, inform the release version of the package or branch where the package it is and click Next. Example: 
-    1. For the SSH above the package is located in the `sdk-swift-package-xcframework` branch, so you should select Branch and type its name on the available field.
+4. After Xcode verified the repository, at the Choose Package Options screen, inform the release version of the package or branch where the package it is and click Next. Example: 
+    1. For the HTTP above the package is located in the `master` branch, so you should select Branch and type its name on the available field.
 
-> It might take a while for Xcode to verify the package, so you will not be able to add these informations immediately. 
+   It might take a while for Xcode to verify the package, so you will not be able to add these informations immediately. 
 
-1. Then Xcode will open the Add Package to App screen and after a few minutes, OpenRoaming SDK package will be installed in your App.
-1. Also, please make sure that OpenRoaming Package is also added on Build Phases > Link Binary with Libraries.
+5. Then Xcode will open the Add Package to App screen and after a few minutes, OpenRoaming SDK package will be installed in your App.
+6. Also, please make sure that OpenRoaming Package is also added on Build Phases > Link Binary with Libraries.
 
 ## Test whether the SDK was installed correctly
 1. Go to your project
