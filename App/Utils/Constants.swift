@@ -9,6 +9,6 @@
 import Foundation
 
 let domain = "www.cisco.com"
-let appId = "com.cisco.OpenRoaming.app29"
-let dnaSpacesKey = "3cca6g2c-3299-2446-2857-cfc6c95ba337"
+let appId = "com.cisco.OpenRoaming.1app29"
+let dnaSpacesKey = "56ca6g2c-3299-2446-2857-cfc6c95ba447"
 let standardDateFormat = "yyyy-MM-dd"

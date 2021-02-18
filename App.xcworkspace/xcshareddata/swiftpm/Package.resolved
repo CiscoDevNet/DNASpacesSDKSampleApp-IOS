@@ -5,9 +5,9 @@
         "package": "OpenRoaming",
         "repositoryURL": "https://github.com/CiscoDevNet/DNASpacesSDK-IOS.git",
         "state": {
-          "branch": "master",
-          "revision": "03c5e2590b1d01ccf782cb9ce367d133627201dc",
-          "version": null
+          "branch": null,
+          "revision": "0d4252da49f73e816c55a3564e471e9dd5204acf",
+          "version": "1.0.2"
         }
       }
     ]

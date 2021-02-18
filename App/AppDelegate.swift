@@ -27,23 +27,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.registerForRemoteNotifications(application)
         
         print("Notifications: \(NotificationHelper.list().count)")
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let navigationController = mainStoryboard.instantiateViewController(withIdentifier: "NavigationController") as! UINavigationController
+        self.window?.rootViewController = navigationController
         
         OpenRoaming.registerSdk(appId: appId, dnaSpacesKey: dnaSpacesKey, registerSdkHandler: {
             signingState, error in
             DispatchQueue.main.async {
-                let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-                
-                let navigationController = mainStoryboard.instantiateViewController(withIdentifier: "NavigationController") as! UINavigationController
-                self.window?.rootViewController = navigationController
-                
+
                 if (signingState == SigningState.signed){
                     let tabbarViewController: UITabBarController = mainStoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! UITabBarController
                     navigationController.pushViewController(tabbarViewController, animated: false)
                 }
-                self.window?.makeKeyAndVisible()
             }
         })
-        
+        self.window?.makeKeyAndVisible()
+
         return true
     }
     
@@ -146,11 +146,12 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
 }
 
 extension AppDelegate : MessagingDelegate {
-  func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
-    print("Firebase registration token: \(fcmToken)")
-    
-    let dataDict:[String: String] = ["token": fcmToken]
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+        print("Firebase registration token: \(String(describing: fcmToken))")
+    if(fcmToken != nil){
+    let dataDict:[String: String] = ["token": fcmToken!]
     NotificationCenter.default.post(name: UserNotifications.Notification.Name("FCMToken"), object: nil, userInfo: dataDict)
+    }
     // TODO: If necessary send token to application server.
     // Note: This callback is fired at each app startup and whenever a new token is generated.
   }

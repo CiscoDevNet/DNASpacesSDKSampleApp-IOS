@@ -11,8 +11,8 @@
 		0112497C253870CF00D087AB /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8755719E23CE2A67008DA709 /* NetworkExtension.framework */; };
 		0112497E253870D100D087AB /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97D3D85EF844CDB3BFA1F9C /* Pods_App.framework */; };
 		0124B370249BD8FC005023C9 /* UpdateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0124B36F249BD8FC005023C9 /* UpdateUserViewController.swift */; };
-		01BFA7FB2539C36300297E2F /* OpenRoaming in Frameworks */ = {isa = PBXBuildFile; productRef = 01BFA7FA2539C36300297E2F /* OpenRoaming */; };
 		875571A123D5BE9E008DA709 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875571A023D5BE9D008DA709 /* DeviceModel.swift */; };
+		87AAE89B25DEEADC00649F00 /* OpenRoaming in Frameworks */ = {isa = PBXBuildFile; productRef = 87AAE89A25DEEADC00649F00 /* OpenRoaming */; };
 		87AB504B238BAB3C00D17E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB504A238BAB3C00D17E6E /* AppDelegate.swift */; };
 		87AB504F238BAB3C00D17E6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB504E238BAB3C00D17E6E /* ViewController.swift */; };
 		87AB5054238BAB4100D17E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AB5053238BAB4100D17E6E /* Assets.xcassets */; };
@@ -93,7 +93,7 @@
 			files = (
 				0112497E253870D100D087AB /* Pods_App.framework in Frameworks */,
 				0112497C253870CF00D087AB /* NetworkExtension.framework in Frameworks */,
-				01BFA7FB2539C36300297E2F /* OpenRoaming in Frameworks */,
+				87AAE89B25DEEADC00649F00 /* OpenRoaming in Frameworks */,
 				0112497A253870CE00D087AB /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +218,7 @@
 			);
 			name = App;
 			packageProductDependencies = (
-				01BFA7FA2539C36300297E2F /* OpenRoaming */,
+				87AAE89A25DEEADC00649F00 /* OpenRoaming */,
 			);
 			productName = "Open Roaming";
 			productReference = 87AB5047238BAB3C00D17E6E /* App.app */;
@@ -231,7 +231,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = Cisco;
 				TargetAttributes = {
 					87AB5046238BAB3C00D17E6E = {
@@ -249,7 +249,7 @@
 			);
 			mainGroup = 87AB503E238BAB3C00D17E6E;
 			packageReferences = (
-				01BFA7F92539C36300297E2F /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */,
+				87AAE89925DEEADC00649F00 /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */,
 			);
 			productRefGroup = 87AB5048238BAB3C00D17E6E /* Products */;
 			projectDirPath = "";
@@ -409,6 +409,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -469,6 +470,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -505,7 +507,7 @@
 				CODE_SIGN_ENTITLEMENTS = "App/Open RoamingDebug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49V58KMYS4;
+				DEVELOPMENT_TEAM = 756FVLLAKS;
 				INFOPLIST_FILE = App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,7 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.OpenRoaming.app29;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.OpenRoaming.1app29;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -529,7 +531,7 @@
 				CODE_SIGN_ENTITLEMENTS = App/App.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49V58KMYS4;
+				DEVELOPMENT_TEAM = 756FVLLAKS;
 				INFOPLIST_FILE = App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -537,7 +539,7 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.OpenRoaming.app29;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.OpenRoaming.1app29;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -569,20 +571,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		01BFA7F92539C36300297E2F /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */ = {
+		87AAE89925DEEADC00649F00 /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CiscoDevNet/DNASpacesSDK-IOS.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		01BFA7FA2539C36300297E2F /* OpenRoaming */ = {
+		87AAE89A25DEEADC00649F00 /* OpenRoaming */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 01BFA7F92539C36300297E2F /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */;
+			package = 87AAE89925DEEADC00649F00 /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */;
 			productName = OpenRoaming;
 		};
 /* End XCSwiftPackageProductDependency section */
