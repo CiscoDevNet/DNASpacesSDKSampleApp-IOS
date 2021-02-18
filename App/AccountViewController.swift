@@ -117,7 +117,7 @@ class AccountViewController: UITableViewController, UpdateUserViewControllerDele
     
     @IBAction func pushNotificationChanged(_ sender: UISwitch) {
         self.showLoader()
-        if (sender.isOn == true) {
+        if (sender.isOn == true && NotificationHelper.pushIdentify != nil) {
             associatePushIdentifier(pushIdentifier: NotificationHelper.pushIdentify!)
         }else{
             dissociatePushIdentifier()
