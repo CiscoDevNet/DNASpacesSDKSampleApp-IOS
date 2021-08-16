@@ -11,12 +11,12 @@
 		0112497C253870CF00D087AB /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8755719E23CE2A67008DA709 /* NetworkExtension.framework */; };
 		0112497E253870D100D087AB /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97D3D85EF844CDB3BFA1F9C /* Pods_App.framework */; };
 		0124B370249BD8FC005023C9 /* UpdateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0124B36F249BD8FC005023C9 /* UpdateUserViewController.swift */; };
+		873E455226CA5FD400F5023E /* OpenRoaming in Frameworks */ = {isa = PBXBuildFile; productRef = 873E455126CA5FD400F5023E /* OpenRoaming */; };
 		875571A123D5BE9E008DA709 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875571A023D5BE9D008DA709 /* DeviceModel.swift */; };
 		87AB504B238BAB3C00D17E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB504A238BAB3C00D17E6E /* AppDelegate.swift */; };
 		87AB504F238BAB3C00D17E6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB504E238BAB3C00D17E6E /* ViewController.swift */; };
 		87AB5054238BAB4100D17E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AB5053238BAB4100D17E6E /* Assets.xcassets */; };
 		87AB5057238BAB4100D17E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AB5055238BAB4100D17E6E /* LaunchScreen.storyboard */; };
-		87C15D62268EEA7400E82146 /* OpenRoaming in Frameworks */ = {isa = PBXBuildFile; productRef = 87C15D61268EEA7400E82146 /* OpenRoaming */; };
 		87CE7AEA239646FF00894967 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CE7AE9239646FF00894967 /* AccountViewController.swift */; };
 		87CE7AEC2396472E00894967 /* UsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CE7AEB2396472E00894967 /* UsageViewController.swift */; };
 		87CE7AF22396907F00894967 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CE7AF12396907F00894967 /* Constants.swift */; };
@@ -93,7 +93,7 @@
 			files = (
 				0112497E253870D100D087AB /* Pods_App.framework in Frameworks */,
 				0112497C253870CF00D087AB /* NetworkExtension.framework in Frameworks */,
-				87C15D62268EEA7400E82146 /* OpenRoaming in Frameworks */,
+				873E455226CA5FD400F5023E /* OpenRoaming in Frameworks */,
 				0112497A253870CE00D087AB /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +218,7 @@
 			);
 			name = App;
 			packageProductDependencies = (
-				87C15D61268EEA7400E82146 /* OpenRoaming */,
+				873E455126CA5FD400F5023E /* OpenRoaming */,
 			);
 			productName = "Open Roaming";
 			productReference = 87AB5047238BAB3C00D17E6E /* App.app */;
@@ -249,7 +249,7 @@
 			);
 			mainGroup = 87AB503E238BAB3C00D17E6E;
 			packageReferences = (
-				87C15D60268EEA7400E82146 /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */,
+				873E455026CA5FD400F5023E /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */,
 			);
 			productRefGroup = 87AB5048238BAB3C00D17E6E /* Products */;
 			projectDirPath = "";
@@ -571,20 +571,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		87C15D60268EEA7400E82146 /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */ = {
+		873E455026CA5FD400F5023E /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CiscoDevNet/DNASpacesSDK-IOS.git";
+			repositoryURL = "https://github.com/CiscoDevNet/DNASpacesSDK-IOS/";
 			requirement = {
 				kind = exactVersion;
-				version = 1.0.9;
+				version = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		87C15D61268EEA7400E82146 /* OpenRoaming */ = {
+		873E455126CA5FD400F5023E /* OpenRoaming */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 87C15D60268EEA7400E82146 /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */;
+			package = 873E455026CA5FD400F5023E /* XCRemoteSwiftPackageReference "DNASpacesSDK-IOS" */;
 			productName = OpenRoaming;
 		};
 /* End XCSwiftPackageProductDependency section */

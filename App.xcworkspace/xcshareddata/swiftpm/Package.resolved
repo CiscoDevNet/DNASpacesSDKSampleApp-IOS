@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "OpenRoaming",
-        "repositoryURL": "https://github.com/CiscoDevNet/DNASpacesSDK-IOS.git",
+        "repositoryURL": "https://github.com/CiscoDevNet/DNASpacesSDK-IOS/",
         "state": {
           "branch": null,
-          "revision": "11630b8f7dd9d39fe117a985b446bf60570ac803",
-          "version": "1.0.9"
+          "revision": "39e7d9aa6ec7d1f1c2151da596e518c41cfba61e",
+          "version": "1.1.0"
         }
       }
     ]

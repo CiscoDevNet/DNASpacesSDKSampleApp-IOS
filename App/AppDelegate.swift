@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navigationController = mainStoryboard.instantiateViewController(withIdentifier: "NavigationController") as! UINavigationController
         self.window?.rootViewController = navigationController
         
-        OpenRoaming.registerSdk(appId: appId, dnaSpacesKey: dnaSpacesKey, registerSdkHandler: {
+        OpenRoaming.registerSdk(appId: appId, dnaSpacesKey: dnaSpacesKey,region:Region.US ,registerSdkHandler: {
             signingState, error in
             DispatchQueue.main.async {
 

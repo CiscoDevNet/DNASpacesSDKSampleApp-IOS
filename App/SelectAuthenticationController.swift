@@ -26,7 +26,7 @@ class SelectAuthenticationController: UIViewController {
         
         if !OpenRoaming.isSdkRegistered() {
             showLoader()
-            OpenRoaming.registerSdk(appId: appId, dnaSpacesKey: dnaSpacesKey, registerSdkHandler: {
+            OpenRoaming.registerSdk(appId: appId, dnaSpacesKey: dnaSpacesKey,region:Region.US ,registerSdkHandler: {
                 signingState, error in
                 self.hideLoader()
                 
