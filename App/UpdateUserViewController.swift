@@ -90,7 +90,7 @@ class UpdateUserViewController: UITableViewController {
             self.nameTextField.text = self.userDetail?.name
             self.phoneTextField.text = self.userDetail?.phone
             self.zipCodeTextField.text = self.userDetail?.zipCode
-            self.ageTextField.text = "\(self.userDetail?.age ?? 0)"
+            self.ageTextField.text = self.userDetail?.age ?? "0"
 
             self.hideLoader()
         }
@@ -101,7 +101,7 @@ class UpdateUserViewController: UITableViewController {
         self.userDetail?.name = self.nameTextField.text ?? ""
         self.userDetail?.phone = self.phoneTextField.text ?? ""
         self.userDetail?.zipCode = self.zipCodeTextField.text ?? ""
-        self.userDetail?.age = Int64(self.ageTextField.text ?? "") ?? 0
+        self.userDetail?.age = self.ageTextField.text ?? "0"
         
         OpenRoaming.updateUserDetails(userDetail: self.userDetail!, updateUserHandler: { error in
             if error != nil {

@@ -59,12 +59,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func handleMessageToken() {
-        InstanceID.instanceID().instanceID { (result, error) in
+        Messaging.messaging().token{ (token, error) in
             if let error = error {
                 print("Error fetching remote instance ID: \(error)")
-            } else if let result = result {
-                print("Remote instance ID token: \(result.token)")
-                NotificationHelper.pushIdentify = result.token
+            } else if let token = token {
+                print("Remote instance ID token: \(token)")
+                NotificationHelper.pushIdentify = token
                 
                 if NotificationHelper.isEnabled == .undefined {
                     NotificationHelper.isEnabled = .enabled
